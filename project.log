@@ -6518,3 +6518,114 @@ Name: 578, dtype: float64
 2153       33       41     0.670915
 2998       46       54     0.664351
 983        15       23     0.658243
+2026-08-13 14:00:53 | INFO | M07 | === RUN START ===
+2026-08-13 14:00:53 | INFO | M07 | project=M07
+2026-08-13 14:00:53 | INFO | M07 | repo_dir=CS44670-Module-7
+2026-08-13 14:00:53 | INFO | M07 | python=3.14.7
+2026-08-13 14:00:53 | INFO | M07 | os=Windows 11
+2026-08-13 14:00:53 | INFO | M07 | shell=powershell
+2026-08-13 14:00:53 | INFO | M07 | cwd=notebooks
+2026-08-13 14:00:53 | INFO | M07 | github_actions=False
+2026-08-13 14:00:53 | INFO | M07 | Confirming installation:
+2026-08-13 14:00:53 | INFO | M07 |   python:       3.14.7
+2026-08-13 14:00:53 | INFO | M07 |   pandas:       3.0.5
+2026-08-13 14:00:53 | INFO | M07 |   numpy:        2.5.2
+2026-08-13 14:00:53 | INFO | M07 |   scikit-learn: 1.9.0
+2026-08-13 14:00:53 | INFO | M07 |   seaborn:      0.13.2
+2026-08-13 14:00:53 | INFO | M07 |   matplotlib:   3.11.1
+2026-08-13 14:00:53 | INFO | M07 | Text corpus: 24 documents, classes=['cooking', 'space', 'sports']
+2026-08-13 14:00:53 | INFO | M07 | Vocabulary size (features): 107
+2026-08-13 14:00:53 | INFO | M07 | Text test accuracy: 0.500
+2026-08-13 14:00:53 | INFO | M07 |   predicted 'sports'  <-  'the midfielder scored in the last minute of the game'
+2026-08-13 14:00:53 | INFO | M07 |   predicted 'cooking'  <-  'stir the sauce and bake the casserole until golden'
+2026-08-13 14:00:53 | INFO | M07 | TF-IDF ignored word order. Did any misread sentence reveal that limit?
+2026-08-13 14:00:53 | INFO | M07 | Image data: 1797 images, 64 pixel features each
+2026-08-13 14:00:53 | INFO | M07 | Classes (digits): [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+2026-08-13 14:00:53 | INFO | M07 | Image test accuracy: 0.969
+2026-08-13 14:00:53 | INFO | M07 | Showing confusion matrix (which digits get confused)
+2026-08-13 14:00:53 | INFO | M07 | Matthews correlation coefficient (MCC): 0.966
+2026-08-13 14:00:53 | INFO | M07 | 
+Pixel 1        1.000000
+Pixel 2        2.000000
+Correlation    0.556618
+Name: 66, dtype: float64
+2026-08-13 14:00:54 | INFO | M07 | 
+Pixel 1         2.000000
+Pixel 2        10.000000
+Correlation     0.631467
+Name: 138, dtype: float64
+2026-08-13 14:00:54 | INFO | M07 | 
+Pixel 1         3.00000
+Pixel 2        10.00000
+Correlation     0.59648
+Name: 202, dtype: float64
+2026-08-13 14:00:54 | INFO | M07 | 
+Pixel 1        4.000000
+Pixel 2        5.000000
+Correlation    0.507731
+Name: 261, dtype: float64
+2026-08-13 14:00:54 | INFO | M07 | 
+Pixel 1        5.000000
+Pixel 2        6.000000
+Correlation    0.607309
+Name: 326, dtype: float64
+2026-08-13 14:00:54 | INFO | M07 | 
+Pixel 1        6.000000
+Pixel 2        5.000000
+Correlation    0.607309
+Name: 389, dtype: float64
+2026-08-13 14:00:54 | INFO | M07 | 
+Pixel 1        7.000000
+Pixel 2        6.000000
+Correlation    0.487961
+Name: 454, dtype: float64
+2026-08-13 14:00:54 | INFO | M07 | 
+Pixel 1        8.000000
+Pixel 2        9.000000
+Correlation    0.223831
+Name: 521, dtype: float64
+2026-08-13 14:00:54 | INFO | M07 | 
+Pixel 1        9.000000
+Pixel 2        2.000000
+Correlation    0.582259
+Name: 578, dtype: float64
+2026-08-13 14:00:54 | INFO | M07 | Which digits confuse each other, and does the pixel view explain why?
+2026-08-13 14:00:54 | INFO | M07 | Top 10 pixel pairs with highest correlation:
+2026-08-13 14:00:54 | INFO | M07 | 
+      Pixel 1  Pixel 2  Correlation
+186         2       58     0.937623
+121         1       57     0.855610
+3779       59        3     0.767945
+1357       21       13     0.732505
+902        14        6     0.730296
+463         7       15     0.711073
+3517       54       61     0.707519
+2153       33       41     0.670915
+2998       46       54     0.664351
+983        15       23     0.658243
+2026-08-13 14:00:54 | INFO | M07 | ========================
+2026-08-13 14:00:54 | INFO | M07 | SUMMARY
+2026-08-13 14:00:54 | INFO | M07 | ========================
+2026-08-13 14:00:54 | INFO | M07 | Text:   TF-IDF + MultinomialNB on a labeled corpus
+2026-08-13 14:00:54 | INFO | M07 | Image:  pixel features + LogisticRegression on digit images
+2026-08-13 14:00:54 | INFO | M07 | Same skeleton both times; only the representation changed.
+2026-08-13 14:00:54 | INFO | M07 | ========================
+2026-08-13 14:00:54 | INFO | M07 | YOUR JUDGMENT (write up in README.md and docs/index.md):
+2026-08-13 14:00:54 | INFO | M07 |   - What did TF-IDF throw away, and where would that bite you?
+2026-08-13 14:00:54 | INFO | M07 |   - What did flattening images throw away, and where would that bite you?
+2026-08-13 14:00:54 | INFO | M07 |   - For each, what representation would you reach for next, and why?
+2026-08-13 14:00:54 | INFO | M07 | ========================
+2026-08-13 14:06:46 | INFO | M07 | Text corpus: 24 documents, classes=['cooking', 'space', 'sports']
+2026-08-13 14:06:46 | INFO | M07 | Vocabulary size (features): 107
+2026-08-13 14:06:46 | INFO | M07 | Text test accuracy: 0.500
+2026-08-13 14:06:46 | INFO | M07 | MCC: 0.26111648393354675
+2026-08-13 14:06:46 | INFO | M07 |   predicted 'sports'  <-  'the midfielder scored in the last minute of the game'
+2026-08-13 14:06:46 | INFO | M07 |   predicted 'cooking'  <-  'stir the sauce and bake the casserole until golden'
+2026-08-13 14:06:46 | INFO | M07 | TF-IDF ignored word order. Did any misread sentence reveal that limit?
+2026-08-13 14:12:46 | INFO | M07 | Text corpus: 24 documents, classes=['cooking', 'space', 'sports']
+2026-08-13 14:12:46 | INFO | M07 | Vocabulary size (features): 107
+2026-08-13 14:12:46 | INFO | M07 | Text test accuracy: 0.500
+2026-08-13 14:12:46 | INFO | M07 | MCC: 0.26111648393354675
+2026-08-13 14:12:46 | INFO | M07 |   predicted 'sports'  <-  'the midfielder scored in the last minute of the game'
+2026-08-13 14:12:46 | INFO | M07 |   predicted 'cooking'  <-  'stir the sauce and bake the casserole until golden'
+2026-08-13 14:12:46 | INFO | M07 | TF-IDF ignored word order. Did any misread sentence reveal that limit?
