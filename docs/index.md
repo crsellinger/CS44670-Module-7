@@ -25,9 +25,9 @@ Describe your small technical modification to the example project.
 
 Include:
 
-- What you changed
-- Why you chose that change
-- How you verified that it worked
+- What you changed: Added a correlation matrix and pearson coefficients to see how close the top 10 mismatched digits are to their mismatch. Added Matthew's Correlation coefficients for prediction accuracy.
+- Why you chose that change: To answer the question which digits confuse each other.
+- How you verified that it worked:
 - What result, output, chart, metric, or behavior confirmed the change
 
 Compared with the example project,
