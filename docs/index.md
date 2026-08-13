@@ -25,7 +25,7 @@ Describe your small technical modification to the example project.
 
 Include:
 
-- What you changed: Added a correlation matrix and pearson coefficients to see how close the top 10 mismatched digits are to their mismatch. Added Matthew's Correlation coefficients for prediction accuracy for both text and image models.
+- What you changed: Added a correlation matrix and pearson coefficients to see how close the top 10 mismatched digits are to their mismatch. Added Matthew's Correlation coefficients for prediction accuracy for both text and image models. Also called text and image pipline functions for output.
 - Why you chose that change: To see if each model was accurate in its predictions.
 - How you verified that it worked: Ran notebook.
 - What result, output, chart, metric, or behavior confirmed the change: The text model has a low MCC of 0.26, which means it is really close to just guessing any class from a given sentence. The confusion matrix visually displays these mismatched predictions, only capturing 3 true positives from the sample set. The image model is almost perfect for the given image, capturing 97% accuracy and an MCC of 0.966. I believe this is because of the variability of words and whether or not they hold any significant statistical or lexical meaning to the subject of a sentence. Condensing the image into an 8x8 kernel, instead of an almost infinite combination of words and phrases, significantly reduces error and boost prediction scores.
@@ -35,7 +35,9 @@ explain what is different and why the change matters.
 
 Doesn't really differ from the example project, just testing the example models to see whether or not they are viable for a custom project.
 
-Was it easy, or surprisingly challenging and why do you think so? Easy, nothing to innovative. Just using the skills from previous modules.
+Was it easy, or surprisingly challenging and why do you think so?
+
+Easy, nothing to innovative. Just using the skills from previous modules.
 
 ## Phase 5. Custom Project
 
