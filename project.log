@@ -6972,3 +6972,40 @@ Test Accuracy: 0.8333333333333334
 2026-08-13 21:31:51 | INFO | M07 |   - What did flattening images throw away, and where would that bite you?
 2026-08-13 21:31:51 | INFO | M07 |   - For each, what representation would you reach for next, and why?
 2026-08-13 21:31:51 | INFO | M07 | ========================
+2026-08-13 21:56:05 | INFO | M07 | 
+Matthews correlation coefficient: 0.7071067811865476
+Test Accuracy: 0.8333333333333334
+2026-08-13 21:56:14 | INFO | M07 | 
+Matthews correlation coefficient: 0.7071067811865476
+Test Accuracy: 0.8333333333333334
+2026-08-13 21:56:21 | INFO | M07 | 
+Matthews correlation coefficient: 0.0
+Test Accuracy: 0.5
+2026-08-13 21:56:27 | INFO | M07 | 
+Matthews correlation coefficient: -0.4472135954999579
+Test Accuracy: 0.3333333333333333
+2026-08-13 21:56:44 | INFO | M07 | 
+Matthews correlation coefficient: 0.7071067811865476
+Test Accuracy: 0.8333333333333334
+2026-08-13 21:57:52 | INFO | M07 | 
+Matthews correlation coefficient: 0.7071067811865476
+Test Accuracy: 0.8333333333333334
+2026-08-13 21:58:00 | INFO | M07 | 
+Matthews correlation coefficient: 0.7071067811865476
+Test Accuracy: 0.8333333333333334
+2026-08-13 21:58:38 | INFO | M07 | 
+Matthews correlation coefficient: 0.7071067811865476
+Test Accuracy: 0.8333333333333334
+2026-08-13 21:58:38 | INFO | M07 | Number of iterations per image: [33]
+2026-08-13 22:01:46 | INFO | M07 | 
+Matthews correlation coefficient: 0.7071067811865476
+Test Accuracy: 0.8333333333333334
+2026-08-13 22:01:46 | INFO | M07 | Number of iterations per image: [33]
+2026-08-13 22:02:33 | INFO | M07 | 
+Matthews correlation coefficient: 0.7071067811865476
+Test Accuracy: 0.8333333333333334
+2026-08-13 22:02:33 | INFO | M07 | Number of iterations per image: [33]
+2026-08-13 22:02:48 | INFO | M07 | 
+Matthews correlation coefficient: 0.7071067811865476
+Test Accuracy: 0.8333333333333334
+2026-08-13 22:02:48 | INFO | M07 | Number of iterations per image: [33]

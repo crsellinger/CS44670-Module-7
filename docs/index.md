@@ -41,59 +41,18 @@ Easy, nothing to innovative. Just using the skills from previous modules.
 
 ## Phase 5. Custom Project
 
-Describe your custom investigation of the deployed model.
+Describe your custom investigation of the deployed model. Be specific about what changed from the example project.
 
-Be specific about what changed from the example project.
+### Basis and Data
 
-### Basis and API
+Model classifies a set of images to cat or dog. Used LogisticRegression for final model. Tried several different vector models such as SVC from scikit-learn, but none were as accurate in classify the image correctly as this one. The model was trained on 6 images, 3 cats and 3 dogs. Train and test were split in half, so 6 train images and 6 test images. The model had an accuracy of 83% and a Matthews correlation coefficient of 0.71.
 
-Describe the deployed model and API you started with.
+### Custom Application
 
-Include:
-
-- The example model and what it predicts
-- The API endpoint and what inputs it expects
-- Why you chose to keep or change the endpoint or model
-
-### Investigation Approach
-
-Describe how you investigated the model's behavior.
-
-Include:
-
-- Which features you varied and why
-- How you structured your tests (single feature, grid, edge cases)
-- What you were trying to learn about the model
-
-### Findings: Feature Sensitivity
-
-Describe what you observed when varying individual features.
-
-Include:
-
-- Which features had the most influence on predictions
-- Where the decision boundary appeared to shift
-- Any surprising or counterintuitive results
-
-### Findings: Edge Cases
-
-Describe what happened with unusual or invalid inputs.
-
-Include:
-
-- What edge cases you tested
-- How the API responded (prediction, error, or unexpected behavior)
-- What this tells you about the model's robustness
+I tried creating my own image classification model to explore possibilities. The confusion matrix shows that it missed one image in the test set. Test size was split in half, increasing or decreasing the split completely through the model off to where it would miss the classification more than a random guess. Having more sample images to train on would greatly improve the model's learning, I think.
 
 ### Summary
 
-Summarize your custom investigation.
+It works, but not very well, and only in specific use cases. I did not implement error correction beyond the L2 penalty built into the LogisticRegression function. Pixels are based on RGB values and, I think, if I chose cat images that were darker in general and dog images that were lighter in general, the model would be more accurate. But, then I'd have to be careful of a white cats or black dogs. A lot more testing can be done to this model. Using Torch and a neural net model would vastly improve the model.
 
-Include:
-
-- What you learned about the model's behavior
-- Where it appears confident and where it seems fragile
-- What you would change about the API contract or model
-- What kinds of real problems this approach could apply to
-
-Display at least one chart or screenshot showing your findings.
+![Test Results](/docs/images/Test_results.png)
