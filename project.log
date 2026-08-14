@@ -6629,3 +6629,41 @@ Name: 578, dtype: float64
 2026-08-13 14:12:46 | INFO | M07 |   predicted 'sports'  <-  'the midfielder scored in the last minute of the game'
 2026-08-13 14:12:46 | INFO | M07 |   predicted 'cooking'  <-  'stir the sauce and bake the casserole until golden'
 2026-08-13 14:12:46 | INFO | M07 | TF-IDF ignored word order. Did any misread sentence reveal that limit?
+2026-08-13 19:15:06 | INFO | M07 | === RUN START ===
+2026-08-13 19:15:06 | INFO | M07 | project=M07
+2026-08-13 19:15:06 | INFO | M07 | repo_dir=CS44670-Module-7
+2026-08-13 19:15:06 | INFO | M07 | python=3.14.6
+2026-08-13 19:15:06 | INFO | M07 | os=Windows 11
+2026-08-13 19:15:06 | INFO | M07 | shell=powershell
+2026-08-13 19:15:06 | INFO | M07 | cwd=notebooks
+2026-08-13 19:15:06 | INFO | M07 | github_actions=False
+2026-08-13 19:15:06 | INFO | M07 | Confirming installation:
+2026-08-13 19:15:06 | INFO | M07 |   python:       3.14.6
+2026-08-13 19:15:06 | INFO | M07 |   pandas:       3.0.5
+2026-08-13 19:15:06 | INFO | M07 |   numpy:        2.5.2
+2026-08-13 19:15:06 | INFO | M07 |   scikit-learn: 1.9.0
+2026-08-13 19:15:06 | INFO | M07 |   seaborn:      0.13.2
+2026-08-13 19:15:06 | INFO | M07 |   matplotlib:   3.11.1
+2026-08-13 19:15:06 | INFO | M07 | Text corpus: 24 documents, classes=['cooking', 'space', 'sports']
+2026-08-13 19:15:06 | INFO | M07 | Vocabulary size (features): 107
+2026-08-13 19:15:06 | INFO | M07 | Text test accuracy: 0.500
+2026-08-13 19:15:06 | INFO | M07 |   predicted 'sports'  <-  'the midfielder scored in the last minute of the game'
+2026-08-13 19:15:06 | INFO | M07 |   predicted 'cooking'  <-  'stir the sauce and bake the casserole until golden'
+2026-08-13 19:15:06 | INFO | M07 | TF-IDF ignored word order. Did any misread sentence reveal that limit?
+2026-08-13 19:15:06 | INFO | M07 | Image data: 1797 images, 64 pixel features each
+2026-08-13 19:15:06 | INFO | M07 | Classes (digits): [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+2026-08-13 19:15:06 | INFO | M07 | Image test accuracy: 0.969
+2026-08-13 19:15:06 | INFO | M07 | Showing confusion matrix (which digits get confused)
+2026-08-13 19:15:06 | INFO | M07 | Which digits confuse each other, and does the pixel view explain why?
+2026-08-13 19:15:07 | INFO | M07 | ========================
+2026-08-13 19:15:07 | INFO | M07 | SUMMARY
+2026-08-13 19:15:07 | INFO | M07 | ========================
+2026-08-13 19:15:07 | INFO | M07 | Text:   TF-IDF + MultinomialNB on a labeled corpus
+2026-08-13 19:15:07 | INFO | M07 | Image:  pixel features + LogisticRegression on digit images
+2026-08-13 19:15:07 | INFO | M07 | Same skeleton both times; only the representation changed.
+2026-08-13 19:15:07 | INFO | M07 | ========================
+2026-08-13 19:15:07 | INFO | M07 | YOUR JUDGMENT (write up in README.md and docs/index.md):
+2026-08-13 19:15:07 | INFO | M07 |   - What did TF-IDF throw away, and where would that bite you?
+2026-08-13 19:15:07 | INFO | M07 |   - What did flattening images throw away, and where would that bite you?
+2026-08-13 19:15:07 | INFO | M07 |   - For each, what representation would you reach for next, and why?
+2026-08-13 19:15:07 | INFO | M07 | ========================
