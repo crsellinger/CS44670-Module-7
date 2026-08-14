@@ -55,4 +55,4 @@ I tried creating my own image classification model to explore possibilities. The
 
 It works, but not very well, and only in specific use cases. I did not implement error correction beyond the L2 penalty built into the LogisticRegression function. Pixels are based on RGB values and, I think, if I chose cat images that were darker in general and dog images that were lighter in general, the model would be more accurate. But, then I'd have to be careful of a white cats or black dogs. A lot more testing can be done to this model. Using Torch and a neural net model would vastly improve the model.
 
-![Test Results](/docs/images/Test_results.png)
+![Test Results](images/Test_results.png)
